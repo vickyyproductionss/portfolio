@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .navbar ul {
   overflow: auto;
 }
@@ -54,17 +53,27 @@ body {
   background: no-repeat fixed;
   background-image: url("images/aboutmeBG6.jpg");
 }
+.aboutMeBG img{
+  position: absolute;
+  left: 40%;
+  top: 2.5%;
+}
 .container {
   margin-left: 100px;
 }
 .container2 {
   margin-left: 40vw;
 }
-.heading {
+.container3 {
+  justify-content: center;
+}
+.headingAboutMe {
   color: rgb(255, 255, 255);
   font-size: 40px;
   text-align: center;
-  padding: 300px;
+  position: absolute;
+    top: 35%;
+    left: 45%;
 }
 .description {
   color: white;
@@ -75,7 +84,9 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
 }
 .descriptionContainer {
-  margin: -250px 150px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(108, 180, 220, 0.2);
   backdrop-filter: blur(4.5px);
@@ -295,6 +306,66 @@ img {
   }
   .wrapper ul li.google {
     margin-left: 60px;
+  }
+  .about {
+    color: white;
+    margin-top: 250px;
+    font-size: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+  }
+  .container {
+    margin-left: 30px;
+  }
+  .welcomeNote {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+  }
+  .describe {
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .describe a{
+    color: rgb(0, 255, 21);
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .learnMore {
+    position: absolute;
+    bottom: 5%;
+    font-size: 15px;
+    margin-top: 100px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+  }
+  .aboutMeBG img{
+    position: absolute;
+    left: 40%;
+    top: 2.5%;
+  }
+  .headingAboutMe {
+    font-size: 50px;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+  }
+  .descriptionContainer {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(108, 180, 220, 0.2);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
   }
 }
 
